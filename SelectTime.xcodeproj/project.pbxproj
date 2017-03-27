@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9059A74F1E2885960003B730 /* FZRSelectTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A7411E2885960003B730 /* FZRSelectTimeView.m */; };
+		9059A7501E2885960003B730 /* FZRCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A7441E2885960003B730 /* FZRCalendarManager.m */; };
+		9059A7511E2885960003B730 /* FZRCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A7461E2885960003B730 /* FZRCalendarView.m */; };
+		9059A7521E2885960003B730 /* FZRDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A7481E2885960003B730 /* FZRDateHelper.m */; };
+		9059A7531E2885960003B730 /* FZRDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A74A1E2885960003B730 /* FZRDayView.m */; };
+		9059A7541E2885960003B730 /* FZRMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A74C1E2885960003B730 /* FZRMonthView.m */; };
+		9059A7551E2885960003B730 /* FZRWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059A74E1E2885960003B730 /* FZRWeekView.m */; };
+		90DD308D1E262920001BFD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD308C1E262920001BFD29 /* main.m */; };
+		90DD30901E262920001BFD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD308F1E262920001BFD29 /* AppDelegate.m */; };
+		90DD30931E262920001BFD29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD30921E262920001BFD29 /* ViewController.m */; };
+		90DD30961E262920001BFD29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD30941E262920001BFD29 /* Main.storyboard */; };
+		90DD30981E262920001BFD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DD30971E262920001BFD29 /* Assets.xcassets */; };
+		90DD309B1E262920001BFD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD30991E262920001BFD29 /* LaunchScreen.storyboard */; };
+		90DD30A61E262921001BFD29 /* SelectTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD30A51E262921001BFD29 /* SelectTimeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90DD30A21E262921001BFD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DD30801E262920001BFD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DD30871E262920001BFD29;
+			remoteInfo = SelectTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9059A7401E2885960003B730 /* FZRSelectTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRSelectTimeView.h; sourceTree = "<group>"; };
+		9059A7411E2885960003B730 /* FZRSelectTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRSelectTimeView.m; sourceTree = "<group>"; };
+		9059A7431E2885960003B730 /* FZRCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRCalendarManager.h; sourceTree = "<group>"; };
+		9059A7441E2885960003B730 /* FZRCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRCalendarManager.m; sourceTree = "<group>"; };
+		9059A7451E2885960003B730 /* FZRCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRCalendarView.h; sourceTree = "<group>"; };
+		9059A7461E2885960003B730 /* FZRCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRCalendarView.m; sourceTree = "<group>"; };
+		9059A7471E2885960003B730 /* FZRDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRDateHelper.h; sourceTree = "<group>"; };
+		9059A7481E2885960003B730 /* FZRDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRDateHelper.m; sourceTree = "<group>"; };
+		9059A7491E2885960003B730 /* FZRDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRDayView.h; sourceTree = "<group>"; };
+		9059A74A1E2885960003B730 /* FZRDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRDayView.m; sourceTree = "<group>"; };
+		9059A74B1E2885960003B730 /* FZRMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRMonthView.h; sourceTree = "<group>"; };
+		9059A74C1E2885960003B730 /* FZRMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRMonthView.m; sourceTree = "<group>"; };
+		9059A74D1E2885960003B730 /* FZRWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRWeekView.h; sourceTree = "<group>"; };
+		9059A74E1E2885960003B730 /* FZRWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRWeekView.m; sourceTree = "<group>"; };
+		90DD30881E262920001BFD29 /* SelectTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DD308C1E262920001BFD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90DD308E1E262920001BFD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90DD308F1E262920001BFD29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90DD30911E262920001BFD29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90DD30921E262920001BFD29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90DD30951E262920001BFD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90DD30971E262920001BFD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90DD309A1E262920001BFD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90DD309C1E262920001BFD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DD30A11E262921001BFD29 /* SelectTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DD30A51E262921001BFD29 /* SelectTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTimeUITests.m; sourceTree = "<group>"; };
+		90DD30A71E262921001BFD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90DD30851E262920001BFD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DD309E1E262921001BFD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9059A73F1E2885960003B730 /* FZRSelectTimeView */ = {
+			isa = PBXGroup;
+			children = (
+				9059A7401E2885960003B730 /* FZRSelectTimeView.h */,
+				9059A7411E2885960003B730 /* FZRSelectTimeView.m */,
+				9059A7421E2885960003B730 /* 底层文件 */,
+			);
+			path = FZRSelectTimeView;
+			sourceTree = "<group>";
+		};
+		9059A7421E2885960003B730 /* 底层文件 */ = {
+			isa = PBXGroup;
+			children = (
+				9059A7431E2885960003B730 /* FZRCalendarManager.h */,
+				9059A7441E2885960003B730 /* FZRCalendarManager.m */,
+				9059A7451E2885960003B730 /* FZRCalendarView.h */,
+				9059A7461E2885960003B730 /* FZRCalendarView.m */,
+				9059A7471E2885960003B730 /* FZRDateHelper.h */,
+				9059A7481E2885960003B730 /* FZRDateHelper.m */,
+				9059A7491E2885960003B730 /* FZRDayView.h */,
+				9059A74A1E2885960003B730 /* FZRDayView.m */,
+				9059A74B1E2885960003B730 /* FZRMonthView.h */,
+				9059A74C1E2885960003B730 /* FZRMonthView.m */,
+				9059A74D1E2885960003B730 /* FZRWeekView.h */,
+				9059A74E1E2885960003B730 /* FZRWeekView.m */,
+			);
+			path = "底层文件";
+			sourceTree = "<group>";
+		};
+		90DD307F1E262920001BFD29 = {
+			isa = PBXGroup;
+			children = (
+				90DD308A1E262920001BFD29 /* SelectTime */,
+				90DD30A41E262921001BFD29 /* SelectTimeUITests */,
+				90DD30891E262920001BFD29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90DD30891E262920001BFD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90DD30881E262920001BFD29 /* SelectTime.app */,
+				90DD30A11E262921001BFD29 /* SelectTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DD308A1E262920001BFD29 /* SelectTime */ = {
+			isa = PBXGroup;
+			children = (
+				9059A73F1E2885960003B730 /* FZRSelectTimeView */,
+				90DD308E1E262920001BFD29 /* AppDelegate.h */,
+				90DD308F1E262920001BFD29 /* AppDelegate.m */,
+				90DD30911E262920001BFD29 /* ViewController.h */,
+				90DD30921E262920001BFD29 /* ViewController.m */,
+				90DD30941E262920001BFD29 /* Main.storyboard */,
+				90DD30971E262920001BFD29 /* Assets.xcassets */,
+				90DD30991E262920001BFD29 /* LaunchScreen.storyboard */,
+				90DD309C1E262920001BFD29 /* Info.plist */,
+				90DD308B1E262920001BFD29 /* Supporting Files */,
+			);
+			path = SelectTime;
+			sourceTree = "<group>";
+		};
+		90DD308B1E262920001BFD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90DD308C1E262920001BFD29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90DD30A41E262921001BFD29 /* SelectTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90DD30A51E262921001BFD29 /* SelectTimeUITests.m */,
+				90DD30A71E262921001BFD29 /* Info.plist */,
+			);
+			path = SelectTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90DD30871E262920001BFD29 /* SelectTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DD30AA1E262921001BFD29 /* Build configuration list for PBXNativeTarget "SelectTime" */;
+			buildPhases = (
+				90DD30841E262920001BFD29 /* Sources */,
+				90DD30851E262920001BFD29 /* Frameworks */,
+				90DD30861E262920001BFD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectTime;
+			productName = SelectTime;
+			productReference = 90DD30881E262920001BFD29 /* SelectTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90DD30A01E262921001BFD29 /* SelectTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DD30AD1E262921001BFD29 /* Build configuration list for PBXNativeTarget "SelectTimeUITests" */;
+			buildPhases = (
+				90DD309D1E262921001BFD29 /* Sources */,
+				90DD309E1E262921001BFD29 /* Frameworks */,
+				90DD309F1E262921001BFD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DD30A31E262921001BFD29 /* PBXTargetDependency */,
+			);
+			name = SelectTimeUITests;
+			productName = SelectTimeUITests;
+			productReference = 90DD30A11E262921001BFD29 /* SelectTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DD30801E262920001BFD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fuzhaurui;
+				TargetAttributes = {
+					90DD30871E262920001BFD29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7MVS3B9RMY;
+						ProvisioningStyle = Automatic;
+					};
+					90DD30A01E262921001BFD29 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7MVS3B9RMY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 90DD30871E262920001BFD29;
+					};
+				};
+			};
+			buildConfigurationList = 90DD30831E262920001BFD29 /* Build configuration list for PBXProject "SelectTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90DD307F1E262920001BFD29;
+			productRefGroup = 90DD30891E262920001BFD29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90DD30871E262920001BFD29 /* SelectTime */,
+				90DD30A01E262921001BFD29 /* SelectTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90DD30861E262920001BFD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DD309B1E262920001BFD29 /* LaunchScreen.storyboard in Resources */,
+				90DD30981E262920001BFD29 /* Assets.xcassets in Resources */,
+				90DD30961E262920001BFD29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DD309F1E262921001BFD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90DD30841E262920001BFD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DD30931E262920001BFD29 /* ViewController.m in Sources */,
+				9059A7511E2885960003B730 /* FZRCalendarView.m in Sources */,
+				9059A7531E2885960003B730 /* FZRDayView.m in Sources */,
+				90DD30901E262920001BFD29 /* AppDelegate.m in Sources */,
+				9059A74F1E2885960003B730 /* FZRSelectTimeView.m in Sources */,
+				9059A7551E2885960003B730 /* FZRWeekView.m in Sources */,
+				9059A7521E2885960003B730 /* FZRDateHelper.m in Sources */,
+				9059A7541E2885960003B730 /* FZRMonthView.m in Sources */,
+				90DD308D1E262920001BFD29 /* main.m in Sources */,
+				9059A7501E2885960003B730 /* FZRCalendarManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DD309D1E262921001BFD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DD30A61E262921001BFD29 /* SelectTimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90DD30A31E262921001BFD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DD30871E262920001BFD29 /* SelectTime */;
+			targetProxy = 90DD30A21E262921001BFD29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90DD30941E262920001BFD29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DD30951E262920001BFD29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90DD30991E262920001BFD29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DD309A1E262920001BFD29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90DD30A81E262921001BFD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90DD30A91E262921001BFD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90DD30AB1E262921001BFD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MVS3B9RMY;
+				INFOPLIST_FILE = SelectTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.SelectTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90DD30AC1E262921001BFD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MVS3B9RMY;
+				INFOPLIST_FILE = SelectTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.SelectTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90DD30AE1E262921001BFD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7MVS3B9RMY;
+				INFOPLIST_FILE = SelectTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.SelectTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectTime;
+			};
+			name = Debug;
+		};
+		90DD30AF1E262921001BFD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7MVS3B9RMY;
+				INFOPLIST_FILE = SelectTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.SelectTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90DD30831E262920001BFD29 /* Build configuration list for PBXProject "SelectTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DD30A81E262921001BFD29 /* Debug */,
+				90DD30A91E262921001BFD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DD30AA1E262921001BFD29 /* Build configuration list for PBXNativeTarget "SelectTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DD30AB1E262921001BFD29 /* Debug */,
+				90DD30AC1E262921001BFD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DD30AD1E262921001BFD29 /* Build configuration list for PBXNativeTarget "SelectTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DD30AE1E262921001BFD29 /* Debug */,
+				90DD30AF1E262921001BFD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DD30801E262920001BFD29 /* Project object */;
+}
